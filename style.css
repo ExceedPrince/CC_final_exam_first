@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+}
+
+button.navbar-toggler {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #119658;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: orange;
+  min-height: 100vh;
+  height: 100%;
+}
+
+#root form {
+  text-align: center;
+  width: 30%;
+  max-width: 30%;
+}
+
+#root form h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: #119658;
+}
+
+#root form input[type=text], #root form input[type=email], #root form input[type=number] {
+  width: 500px;
+  max-width: 100%;
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+
+#root form label {
+  font-weight: 500;
+  color: #119658;
+  margin-bottom: 25px;
+}
+
+#root form button {
+  outline: none;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: #119658;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: #119658;
+}
+
+:-ms-input-placeholder {
+  color: #119658;
+}
+
+::-ms-input-placeholder {
+  color: #119658;
+}
+
+::placeholder {
+  color: #119658;
+}
+/*# sourceMappingURL=style.css.map */
